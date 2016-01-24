@@ -1,4 +1,3 @@
-
 ## The first function, `makeCacheMatrix` creates a special "vector", which is
 ## really a list containing a function to
 
@@ -19,7 +18,6 @@ makeCacheMatrix <- function(x = matrix()) {
 		setinverse = setinverse,
 		getinverse = getinverse)
 }
-
 
 ## The following function calculates the inverse of the matrix within the "special"
 ## vector created with the above function. However, it first checks to see if the
